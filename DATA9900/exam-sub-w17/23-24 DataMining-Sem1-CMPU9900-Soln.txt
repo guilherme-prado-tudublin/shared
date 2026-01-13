@@ -1,0 +1,154 @@
+1. Answer the following questions: (30 marks)
+(a) Discuss the difference between Data Mining and Machine Learning.
+•Data Mining is discovering patterns and relationships in large
+datasets, it refers to the whole process. (5 marks)
+•Machine Learning is a subset/step of data mining that focuses
+on training models to make predictions or decisions. (5 marks)
+(10 marks)
+(b) Discuss the distinction between interpretability and explainability in the context
+of Machine Learning models and their connection to model performance.
+•Interpretability refers to understanding how a model makes
+predictions, while explainability involves providing human-
+understandable reasons for model decisions. (6 marks)
+•There’s often a trade-off between interpretability and model
+performance, as complex models may be less interpretable but
+potentially more accurate. Models with lots of parameters have
+larger structure which makes them difficult to understand. (4
+marks)
+(10 marks)
+(c) Discuss the difference between supervised and unsupervised learning in Data
+Mining and give an example of when using one or the other.
+In supervised learning, the model is trained on labeled data with
+known outcomes (3 marks), while in unsupervised learning, the model
+finds patterns in unlabeled data (3 marks). An example of supervised
+learning is email spam classification (2 marks), and an example of
+unsupervised learning is customer segmentation based on purchasing
+behavior (2 marks).
+(10 marks)
+Page 2 of 7
+Solutions
+2. Answer the following three points: (30 marks)
+(a) Explain the apriori algorithm, including what the terms "confidence," "support,"
+and "lift" stand for.
+The Apriori algorithm is used for association rule mining in market
+basket analysis (4 marks). Confidence measures how often a rule
+is true (2 marks), support measures the frequency of an itemset (2
+marks), and lift quantifies the importance of the rule compared to
+random chance (2 marks).
+(10 marks)
+(b) Discuss the difference between filters and wrapper methods including when is
+best using one or the other.
+Filter methods select features based on statistical measures like cor-
+relation (3 marks), while wrapper methods use model performance as
+a criterion for feature selection (3 marks). Filter methods are compu-
+tationally less expensive and are recommended for high-dimensional
+data (2 marks). Wrapper methods are computationally expensive
+but can lead to better model performance (2 marks).
+(10 marks)
+(c) Give a short explanation of how Random Forest, K-Nearest Neighbor, Naive
+Bayes and Support Vector Machine work.
+Page 3 of 7
+Solutions
+•Random Forest: An ensemble learning method that combines
+multiple decision trees for robust predictions, trained on subsets
+of data and features. (2.5 marks)
+•K-Nearest Neighbor (KNN): An instance-based classification
+algorithm that classifies data points based on the majority class
+of their k-nearest neighbors, using a user-defined parameter k
+and a distance metric. (2.5 marks)
+•Naive Bayes: A probabilistic classifier that assumes feature
+independence, calculating class probabilities based on feature
+likelihoods and prior probabilities. (2.5 marks)
+•Support Vector Machine (SVM): A supervised learning algo-
+rithm that finds the optimal hyperplane to maximize the margin
+between classes, capable of handling binary and multiclass clas-
+sification tasks through kernel functions. (2.5 marks)
+(10 marks)
+3. Answer four out of the following five questions: (40 marks)
+(a) Explain how Euclidean Distance, Symbolic Aggregate Approximation and
+Dynamic Timer Warping algorithms work and give an an example on where
+they can be applied.
+•Euclidean Distance calculates geometric distance, suitable for
+time series with little misalignment. (2.5 marks)
+•Symbolic Aggregate Approximation (SAX) converts time series
+data into a sequence of symbols by discretizing and representing
+its patterns using a predefined alphabet. Then calculates the
+distance between the generated strings. (2.5 marks)
+•Dynamic Time Warping (DTW), on the other hand, accommo-
+dates non-linear alignments, making it ideal for comparing time
+series with phase shifts, varied time scales, or distortions. (2.5
+marks)
+•They can be applied for time series clustering either hierarchical
+or k-means. (2.5 marks)
+Page 4 of 7
+Solutions
+(10 marks)
+(b) Explain the concepts of Word2Vec and Bag of Words in Text Processing. And
+an example on where to apply each of them.
+•Word2Vec is a technique for word embedding that represents
+words as dense vectors. (3 marks)
+•Word2Vec is used in tasks like text classification, recommenda-
+tion systems, and text generation. (2 marks)
+•Bag of Words is a text representation method that treats docu-
+ments as unordered collections of words, ignoring word order.
+(3 marks)
+•BoW is useful for text classification, information retrieval, topic
+modeling, document clustering, and spelling correction. (2
+marks)
+(10 marks)
+(c) Discuss the main steps of the CRISP-DM process.
+Page 5 of 7
+Solutions
+Main steps for CRISP-DM:
+•Business Understanding: Define the problem, objectives, and
+requirements. Develop a clear understanding of the business
+context (1.5 marks).
+•Data Understanding: Collect and explore data relevant to the
+problem. Assess data quality, quantity, and structure (1.5
+marks).
+•Data Preparation: Clean and preprocess the data. Select rele-
+vant features and transform the dataset (1.5 marks).
+•Modeling: Choose appropriate modeling techniques. Train and
+evaluate models to find the best fit (1.5 marks).
+•Evaluation: Assess model performance using metrics and cross-
+validation. Determine if the model meets business objectives (2
+marks).
+•Deployment: Deploy the model into the operational environ-
+ment. Develop a plan for model monitoring and maintenance
+(2 marks).
+(10 marks)
+(d) Discuss the concept of Reinforcement Learning and its relationship with Markov
+Decision Processes.
+•Reinforcement Learning (RL) is a machine learning approach
+where an agent learns by taking actions in an environment to
+maximize rewards. It involves the agent’s policy, actions, and
+rewards, aiming to find the best strategy for long-term gain. (5
+marks)
+•Markov Decision Processes (MDPs) provide the mathematical
+foundation for many RL problems, defining the states, actions,
+transitions, and rewards. RL can be viewed as solving MDPs,
+using them to find optimal policies by estimating state values and
+making decisions to maximize cumulative rewards. MDPs ensure
+a simplified, memoryless representation of the environment,
+enabling the agent to learn effectively in sequential decision-
+making scenarios. (5 marks)
+(10 marks)
+Page 6 of 7
+Solutions
+(e) Give short definitions for the concepts related to explainability: Accountability,
+Trustworthiness, Confidence, Causality, and "Fairness and ethical decision".
+•Accountability: Holding individuals or systems responsible for
+their actions and decisions, ensuring transparency and trace-
+ability in the decision-making process. (2 marks)
+•Trustworthiness: The quality of being reliable and dependable,
+indicating users can have confidence in the system’s performance
+and results. (2 marks)
+•Confidence: The level of certainty or trust in the accuracy
+and reliability of a system’s predictions, often expressed as a
+probability or confidence score. (2 marks)
+•Causality: The relationship between cause and effect, exploring
+how one event or variable influences another, crucial for AI
+explainability. (2 marks)
+•Fairness and Ethical Decision: Ensuring that AI decisions align
+with ethical principles, do not discriminate, and promote equi-
+table outcomes in accordance with societal values. (2 marks)

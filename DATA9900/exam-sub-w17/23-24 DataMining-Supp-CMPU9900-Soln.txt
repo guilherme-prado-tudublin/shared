@@ -1,0 +1,161 @@
+1. Answer the following questions: (30 marks)
+(a) Explain what is Natural Language Processing and why is it so important,
+including 3 examples of some applications
+•Natural Language Processing (NLP) is a field of artificial intel-
+ligence that focuses on the interaction between computers and
+human language. (6 marks)
+•Main difficulties are (Up to 4 marks):
+1. Ambiguity: Language is often ambiguous, with words or
+phrases having multiple meanings. (2 marks)
+2. Context: Understanding context and nuances in language
+is challenging. (2 marks)
+3. Data Variability: Language data varies widely in structure,
+dialects, and styles. (2 marks)
+4. Sarcasm/Irony: Detecting sarcasm and irony can be com-
+plex due to their non-literal nature. (2 marks)
+(10 marks)
+(b) Discuss what is Deep Learning and why has it become so relevant in the last
+few years.
+•Deep Learning is a subset of machine learning that uses multi-
+layered neural networks to process complex data. It’s become
+highly relevant due to advances in hardware, datasets, and
+network architectures, enabling its application in various fields.
+(6 marks)
+•The recent relevance of deep learning is attributed to enhanced
+hardware, data, and network designs. These developments have
+led to its widespread use in areas like healthcare, autonomous
+vehicles, and natural language processing. (4 marks)
+(10 marks)
+(c) Discuss the concept of Entropy and its relationship with Information Gain.
+Page 2 of 7
+Solutions
+•Entropy is a measure of disorder or impurity in a dataset. (4
+marks)
+•Information Gain, on the other hand, is a metric used in decision
+tree algorithms to evaluate the effectiveness of splitting a dataset
+based on a particular attribute. It measures the reduction
+in entropy achieved by dividing the dataset with respect to
+that attribute. In simpler terms, Information Gain quantifies
+how much knowing the outcome of an attribute reduces our
+uncertainty (entropy) about the final classification. (6 marks)
+(10 marks)
+2. Answer the following three points: (30 marks)
+(a) Explain the concept of clustering including the two typical examples K-Means
+and hierarchical clustering.
+•Clustering is a data mining technique that involves grouping
+similar data points together based on their inherent character-
+istics or features. It’s used to discover patterns or structures
+within data. (4 marks)
+•Two typical examples of clustering methods are:
+– K-Means Clustering: K-Means aims to partition data points
+into ’K’ distinct clusters where each data point belongs to
+the cluster with the nearest mean. It uses centroids as
+the center points of clusters and iteratively adjusts them
+to minimize the distance between data points and their
+assigned centroids. (3 marks)
+– Hierarchical Clustering: Hierarchical clustering builds a
+tree-like structure (dendrogram) where data points start
+as individual clusters and are progressively merged into
+larger ones. It provides a visual representation of how data
+points are related to each other, and you can decide on the
+number of clusters by cutting the dendrogram at a certain
+level. (3 marks)
+Page 3 of 7
+Solutions
+(10 marks)
+(b) Discuss the difference between filters and wrapper methods including when is
+best using one or the other.
+Filter methods select features based on statistical measures like cor-
+relation (3 marks), while wrapper methods use model performance as
+a criterion for feature selection (3 marks). Filter methods are compu-
+tationally less expensive and are recommended for high-dimensional
+data (2 marks). Wrapper methods are computationally expensive
+but can lead to better model performance (2 marks).
+(10 marks)
+(c) Give the typical steps you will need to create a pipeline for sentiment analysis
+using data mining techniques.
+To create a sentiment analysis pipeline using data mining techniques,
+follow these steps: Collect text data with sentiment labels (1.5
+marks), preprocess the text by cleaning and transforming it (1.5
+marks), extract numerical features from the text (1.5 marks), choose
+an appropriate model (1.5 marks), train and evaluate the model,
+apply it to new data (1.5 marks), interpret the results (1.5 marks),
+deploy the model if it performs well and continuously monitor and
+retrain it to maintain accuracy and relevance (1 mark).
+(10 marks)
+3. Answer four out of the following five questions: (40 marks)
+(a) Discuss the purpose of Principal Component Analysis (PCA) in data analysis,
+and when do you recommend to use it.
+Page 4 of 7
+Solutions
+•Principal Component Analysis (PCA) is a dimensionality reduc-
+tion technique used to simplify complex datasets while preserv-
+ing essential information. It works by finding new orthogonal
+axes (principal components) in the data that maximize variance.
+These components help reduce the dimensionality of the data
+while retaining the most significant variance. (6 marks)
+•PCA is recommended for high-dimensional datasets where re-
+ducing complexity is essential, particularly in fields like image
+processing, genomics, and finance. It improves computational
+efficiency, mitigates overfitting, and uncovers hidden patterns
+within the data, making it a valuable tool for exploratory data
+analysis and modeling. (4 marks)
+(10 marks)
+(b) Discuss when the following feature selection methods should be applied: Filters,
+Wrappers, Deep Learning and Principal Component Analysis.
+•Filters: Apply when dealing with large datasets to quickly elim-
+inate irrelevant or redundant features for improved efficiency.
+•Wrappers: Use when optimizing feature selection for a specific
+machine learning model, particularly for maximizing predictive
+performance.
+•Deep Learning: Ideal for complex, high-dimensional data like
+images or sequences, where deep neural networks can automati-
+cally learn relevant features.
+•Principal Component Analysis (PCA): Employ for high-
+dimensional data to reduce dimensionality and enhance effi-
+ciency, especially in exploratory data analysis and visualization.
+(10 marks)
+(c) Discuss the data preparation step in the the CRISP-DM process and give
+examples of two common techniques.
+Page 5 of 7
+Solutions
+Main steps for CRISP-DM:
+•Data Preparation: Clean and preprocess the data. Select rele-
+vant features and transform the dataset (6 marks).
+•Examples (Up to 4 marks): Replacing missing values, Data
+aggregation, normalization, data balance, etc.
+(10 marks)
+(d) Discuss the concept of Reinforcement Learning and why does it get good results
+in games like Atari.
+•Reinforcement Learning (RL) is a machine learning approach
+where an agent learns by taking actions in an environment to
+maximize rewards. It involves the agent’s policy, actions, and
+rewards, aiming to find the best strategy for long-term gain. (5
+marks)
+•RL is particularly effective in game environments like Atari
+because of its ability to adapt and learn optimal strategies
+without explicit human guidance. In these games, the agent
+interacts with the environment, receives feedback in the form of
+rewards (score increases or decreases), and continually refines
+its decision-making process to achieve high scores.(5 marks)
+(10 marks)
+(e) Give short definitions for the concepts related to explainability: Accountability,
+Trustworthiness, Confidence, Causality, and "Fairness and ethical decision".
+Page 6 of 7
+Solutions
+•Accountability: Holding individuals or systems responsible for
+their actions and decisions, ensuring transparency and trace-
+ability in the decision-making process. (2 marks)
+•Trustworthiness: The quality of being reliable and dependable,
+indicating users can have confidence in the system’s performance
+and results. (2 marks)
+•Confidence: The level of certainty or trust in the accuracy
+and reliability of a system’s predictions, often expressed as a
+probability or confidence score. (2 marks)
+•Causality: The relationship between cause and effect, exploring
+how one event or variable influences another, crucial for AI
+explainability. (2 marks)
+•Fairness and Ethical Decision: Ensuring that AI decisions align
+with ethical principles, do not discriminate, and promote equi-
+table outcomes in accordance with societal values. (2 marks)
+(10 marks)

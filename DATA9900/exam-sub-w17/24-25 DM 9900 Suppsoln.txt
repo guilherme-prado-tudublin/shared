@@ -1,0 +1,216 @@
+Q1. 
+ 
+(a)  Describe the role of data preprocessing in data mining and list three techniques used 
+to prepare data for analysis. 
+    (10 marks) 
+    Role of Data Preprocessing: Data preprocessing is essential in data mining as it 
+improves the quality of data and enhances the efficiency of the mining process. It 
+involves cleaning, transforming, and organizing data to make it suitable for 
+analysis. 
+Techniques: 
+• Data Cleaning: Removing noise and correcting inconsistencies in the data 
+(e.g., handling missing values, removing duplicates). 
+• Normalization: Scaling numerical data to a standard range (e.g., Min-Max 
+scaling or Z-score normalization) to ensure uniformity across features. 
+• Feature Selection: Selecting relevant features to reduce dimensionality, which 
+helps in improving model performance and reducing overfitting. 
+ 
+ 
+  (b)  Explain the concept of Supervised Learning and provide examples of tree-based 
+algorithms commonly used in this approach, highlighting their key differences. 
+ 
+  (10 marks) 
+ 
+Concept of Supervised Learning: Supervised learning is a type of machine 
+learning where a model is trained on a labelled dataset, meaning that each training 
+example includes input-output pairs. The model learns to map inputs to the correct 
+outputs. 
+Examples of Tree-Based Algorithms: 
+1. Decision Trees: Simple, interpretable models that split data into subsets 
+based on feature values, producing a tree-like structure. 
+2. Random Forests: An ensemble method that combines multiple decision 
+trees to improve predictive accuracy and control overfitting. 
+3. Gradient Boosting Trees: Builds trees sequentially, where each new tree 
+corrects errors made by the previous ones, often leading to better 
+performance but at the cost of interpretability. 
+Key Differences: 
+• Complexity: Decision trees are simple and easy to interpret, while Random 
+Forests and Gradient Boosting Trees are more complex and provide better 
+accuracy. 
+• Robustness: Random Forests are less prone to overfitting compared to 
+individual decision trees due to averaging multiple trees.  
+  (c)  Differentiate between overfitting and underfitting in the context of machine learning 
+models. Provide examples of each. 
+(10  marks) 
+ 
+Overfitting: Overfitting occurs when a model learns the training data too well, 
+capturing noise and outliers, which leads to poor generalization to unseen data. 
+• Example: A complex polynomial regression that fits every data point perfectly 
+but performs poorly on test data. 
+  Page 3 of 6  
+Underfitting: Underfitting happens when a model is too simple to capture the 
+underlying patterns in the data, leading to poor performance on both training and 
+test sets. 
+• Example: A linear regression model applied to a nonlinear dataset, resulting in 
+significant prediction errors. 
+ 
+ 
+Q2  (a) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Discuss how the concept of entropy is used in decision trees to make splits. 
+ 
+(10 marks) 
+ 
+Entropy is a measure of impurity or disorder in a dataset. In decision trees, it 
+quantifies the uncertainty in predicting the class label of a dataset. When building a 
+decision tree, the algorithm aims to minimize entropy when splitting the data. 
+1. Calculation: The entropy of a dataset is calculated using the formula: 
+ 
+ 
+ 
+where pi is the proportion of class i in the set S and C is the number of classes. 
+ 
+2. Splitting Criteria: The algorithm evaluates potential splits based on how much 
+they reduce entropy (Information Gain). A split with a higher Information Gain 
+is preferred as it results in purer child nodes. 
+ 
+ 
+ 
+  (b)  Describe the concept of dimensionality reduction and explain two techniques used for 
+this purpose. Outline the main differences between wrappers and filter methods.  
+(10  marks) 
+ 
+• LIME (Local Interpretable Model-agnostic Explanations): Generates locally 
+faithful explanations by creating a simpler model around the prediction of 
+interest, providing instance-level interpretations. 
+• SHAP (SHapley Additive exPlanations): Provides global and local 
+interpretability by calculating the contribution of each feature to predictions 
+based on game-theoretic Shapley values. 
+ 
+ 
+  (c)  Indicate if each statement is true or false and provide an explanation for your choice: 
+1. Unsupervised Learning does not require labeled data for training. 
+2. The use of data integration can lead to improved data quality. 
+3. Random Forests are less robust to outliers than Decision Trees. 
+4. Clustering algorithms can only be used on numerical data. 
+(10 marks) 
+ 
+1. True. Unsupervised learning analyses data without labels, identifying patterns 
+and structures. 
+2. True. Data integration combines data from different sources, which can 
+enhance quality by providing a more comprehensive view. 
+  Page 4 of 6  
+3. False. Random Forests are generally more robust to outliers because they 
+aggregate multiple trees, which can mitigate the impact of outliers. 
+4. False. While many clustering algorithms work with numerical data, techniques 
+like k-modes can handle categorical data. 
+ 
+ 
+Q3  Answer four out of the five next points: 
+     
+  (a)  Explain the concept of time series analysis and describe one method used to forecast 
+future values. Provide a practical application example. 
+(10 marks) 
+ 
+• Concept of Time Series Analysis: Time series analysis involves statistical 
+techniques to analyze time-ordered data points. It aims to understand underlying 
+patterns, trends, and seasonal variations over time. 
+Method for Forecasting: 
+• ARIMA (AutoRegressive Integrated Moving Average): A widely used 
+forecasting method that models time series data using autoregressive and 
+moving average components along with differencing to achieve stationarity. 
+• Practical Application Example: Forecasting stock prices or sales figures for 
+businesses based on historical data, allowing companies to make informed 
+decisions on inventory and investment. 
+ 
+ 
+   
+ 
+  (b)  Describe the differences between Local and Global explainability methods in the 
+context of machine learning models. Give an example of each. 
+(10 marks) 
+ 
+Local Explainability Methods: Local explainability focuses on interpreting 
+individual predictions made by a model, often using techniques to explain specific 
+instances. 
+• Example: LIME (Local Interpretable Model-agnostic Explanations) 
+provides explanations for individual predictions by approximating the 
+model locally. 
+Global Explainability Methods: Global explainability aims to provide an overall 
+understanding of the model's behavior and the relationships between features and 
+predictions across the entire dataset. 
+• Example: Feature importance scores from a Random Forest model indicate 
+which features are most influential for predictions on average.  
+  (c)  Compare and contrast Bag of Words and word embeddings in Natural Language 
+Processing (NLP). Discuss the strengths and weaknesses of each approach in a given 
+NLP task. 
+(10 marks) 
+ 
+Bag of Words (BoW): 
+  Page 5 of 6  
+• Definition: Represents text as a set of words, disregarding grammar and 
+order, using a vector where each dimension corresponds to a word's 
+frequency. 
+• Strengths: Simple to implement and interpret; effective for document 
+classification. 
+• Weaknesses: Loses semantic meaning and context; results in high-
+dimensional sparse vectors. 
+Word Embeddings: 
+• Definition: Represents words in dense vector spaces, capturing semantic 
+relationships and contexts (e.g., Word2Vec, GloVe). 
+• Strengths: Encodes meaning and relationships between words, improving 
+performance in tasks like sentiment analysis and translation. 
+• Weaknesses: Requires a large corpus for training; less interpretable than 
+BoW. 
+ 
+ 
+  (d)  Compare and contrast classification and regression algorithms. Provide examples of 
+algorithms used in each category and discuss their typical applications. 
+ (10 marks) 
+ 
+• Classification and regression algorithms are both types of supervised learning, 
+but they differ in their output types and applications. Classification algorithms 
+predict discrete labels, such as categories or classes. Examples include Logistic 
+Regression, which is used for binary or multiclass classification, and Decision 
+Trees, which segment data into subsets to make predictions. Classification is 
+commonly used in applications like email spam detection, image recognition, 
+and medical diagnosis. 
+• Regression algorithms, on the other hand, predict continuous numerical values. 
+Linear Regression, which predicts a dependent variable based on a linear 
+relationship with independent variables, and Decision Tree Regression, which 
+segments data for predicting continuous outputs, are examples of regression 
+algorithms. Typical applications include house price prediction, stock price 
+forecasting, and temperature estimation, where predicting precise values is 
+essential.  
+     
+  (e)  Describe the role of neural networks in data mining. Explain how a basic neural 
+network is structured and provide an example of a problem it could solve.  
+(10 marks) 
+ 
+Role of Neural Networks: Neural networks are powerful machine learning models 
+used for data mining that can capture complex patterns in large datasets. They 
+consist of interconnected layers of nodes (neurons) that process inputs to produce 
+outputs. 
+Basic Structure: 
+1. Input Layer: Receives input features. 
+2. Hidden Layers: One or more layers that perform computations and feature 
+extraction. 
+3. Output Layer: Produces the final prediction. 
+Example Problem: A neural network can be used for image recognition tasks, such 
+as class.

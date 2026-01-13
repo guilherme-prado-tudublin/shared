@@ -1,0 +1,149 @@
+Q1. 
+ 
+(a)  Describe the steps you would follow to apply K-means clustering to customer 
+segmentation in an online retail website business. 
+    (10 marks) 
+
+1. Data Collection and Preparation: Gather and clean customer data (e.g., 
+purchase history, demographics) and normalize features for consistent scaling. 
+2. Determine Number of Clusters (K): Use methods like the elbow method or 
+silhouette score to find the optimal K. 
+3. Initialize and Assign Clusters: Randomly initialize K centroids, then assign 
+each data point to its nearest centroid. 
+4. Update and Iterate: Recalculate centroids by averaging assigned points, and 
+repeat until assignments stabilize. 
+5. Interpret and Validate Clusters: Analyse cluster insights for actionable 
+strategies and validate cluster quality using metrics like silhouette score. 
+ 
+ 
+  (b)  Explain the importance of data normalization and data integration in machine 
+learning. 
+      (10 marks)   
+     
+• Data Normalization: Ensures all features contribute equally, improving model 
+performance and convergence speed in algorithms sensitive to feature scale 
+(e.g., K-means, neural networks). 
+• Data Integration: Combines data from multiple sources, enhancing data 
+quality and providing a comprehensive dataset, which leads to more accurate 
+model insights.  
+ 
+(c) 
+ 
+Differentiate between feature selection and feature extraction. Provide an example of 
+each in a classification problem. 
+(10 marks) 
+ 
+• Feature Selection: Identifying and selecting the most relevant features from the 
+original data, reducing dimensionality without creating new features (e.g., 
+selecting top features based on correlation). 
+• Feature Extraction: Creating new features by transforming or combining 
+existing ones (e.g., using Principal Component Analysis (PCA) to generate a 
+lower-dimensional set of features that captures maximum variance).receiving an 
+update. 
+ 
+ 
+Q2  
+(a) Describe the following time series similarity metrics Dynamic Time Warping (DTW) 
+and Symbolic Aggregate Approximation (SAX). 
+(10 marks)  
+ 
+• Dynamic Time Warping (DTW): DTW aligns two time series by stretching or 
+compressing segments to minimize the distance between them, allowing 
+comparison despite variations in speed or length. It’s widely used in tasks like 
+speech recognition, where similar patterns may occur at different speeds. 
+• Symbolic Aggregate Approximation (SAX): SAX reduces the dimensionality 
+of a time series by converting it into a string of symbols, representing trends 
+over time while preserving shape and reducing noise. This technique is 
+beneficial for indexing, clustering, and searching large time series datasets.  
+  (b)  Discuss how LIME and SHAP address model explainability and how they differ in 
+their approach.  
+(10  marks) 
+ 
+• LIME (Local Interpretable Model-agnostic Explanations): Generates locally 
+faithful explanations by creating a simpler model around the prediction of 
+interest, providing instance-level interpretations. 
+• SHAP (SHapley Additive exPlanations): Provides global and local 
+interpretability by calculating the contribution of each feature to predictions 
+based on game-theoretic Shapley values.  
+  (c)  Indicate if each statement is true or false and provide an explanation for your choice: 
+1. Supervised Learning requires labeled data for training. 
+2. Feature extractions techniques like Recursive Feature Elimination reduce the 
+dimensionality by transforming features rather than selecting subsets of 
+original features. 
+3. Decision Trees can be used for both classification and regression tasks, 
+providing flexibility in supervised learning applications. 
+4. SHAP and LIME are model-specific explainability techniques. 
+ 
+(10 marks) 
+ 
+1. True, as supervised learning relies on labelled input-output pairs. 
+2. False, RFE is a selection technique. 
+3. False, time series can exhibit both linear and non-linear patterns. 
+4. False, both are model-agnostic and can be applied to various model types.  
+ 
+Q3  Answer four out of the five next points: 
+     
+  (a)  Explain how the Apriori Algorithm uses Support, Confidence, and Lift to generate 
+meaningful association rules, and provide a practical example of its use. 
+(10 marks) 
+ 
+1. Support: The frequency of itemsets in the dataset (e.g., the percentage of 
+transactions containing bread). 
+2. Confidence: The likelihood of an item being bought if another item is bought 
+(e.g., if a customer buys bread, they are likely to buy butter). 
+3. Lift: The ratio of observed support to that expected if the items were 
+independent. Higher lift values indicate stronger associations. 
+  
+  (b)  Describe the difference between TF-IDF and word embeddings, and discuss in what 
+type of NLP application each might be more suitable.  
+(10 marks) 
+ 
+• TF-IDF: Captures the importance of words in a document by emphasizing rare 
+terms. Suitable for document retrieval and classification tasks. 
+• Word Embeddings: Encodes words in a dense, continuous vector space, 
+capturing semantic relationships. Best for sentiment analysis, translation, and 
+semantic similarity tasks.  
+  (c)  Indicate if each statement is true or false and provide an explanation for their choice: 
+• Data Mining and Machine Learning are synonymous terms that refer to the same 
+concepts. 
+• K-means clustering requires prior knowledge of the number of clusters to be 
+formed. 
+• Data preprocessing is an optional step in the Data Mining life cycle. 
+• The CRISP-DM framework is the only methodology used for Data Mining 
+projects.  
+• (10 marks) 
+ 
+• False, Data Mining focuses on discovering patterns in data, while Machine 
+Learning is about creating predictive models. 
+• True, the number of clusters (K) is specified before running K-means. 
+• False, it is essential to ensure data quality and improve analysis accuracy. 
+• False, other frameworks exist, like SEMMA and KDD. 
+ 
+  (d)  Compare and contrast supervised and unsupervised learning. Provide examples of 
+algorithms used in each category and discuss their typical applications. 
+(10 marks) 
+ 
+Supervised Learning: 
+• Definition: Learning from labeled data where the model is trained to map inputs 
+to known outputs. 
+• Examples of Algorithms: 
+o Linear Regression (for predicting continuous values). 
+o Decision Trees (for classification tasks). 
+• Typical Applications: Spam detection, credit scoring, and medical diagnosis. 
+Unsupervised Learning: 
+• Definition: Learning from unlabeled data, aiming to discover hidden patterns or 
+groupings. 
+• Examples of Algorithms: 
+o K-means Clustering (for grouping data). 
+o Principal Component Analysis (for dimensionality reduction). 
+• Typical Applications: Customer segmentation, anomaly detection, and topic 
+modeling. 
+  
+  (e)  Explain why Logistic Regression is preferred over Linear Regression for binary 
+classification, including an example of each model’s use. 
+(10 marks) 
+ 
+•  Logistic Regression: Maps output to probabilities, making it ideal for binary 
+classification. E.g., predicting if an email is spam or not. 
+•  Linear Regression: Predicts continuous values, such as predicting house prices 
+based on square footage.  
